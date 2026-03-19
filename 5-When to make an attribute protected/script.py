@@ -4,7 +4,7 @@
 class User:
     def __init__(self, username, email, password):
         self.username = username
-        # "self._" the "_" here make the attribute protected -> The attribute is internal to the class
+        # "self._" the "_" here make the attribute protected -> The attribute is internal to the class -> it's can be accessed outside
         self._email = email
         self._password = password
         
