@@ -4,12 +4,17 @@
 class User:
     def __init__(self, username, email, password):
         self.username = username
-        self.email = email
-        self.password = password
+        # "self._" the "_" here make the attribute protected -> The attribute is internal to the class
+        self._email = email
+        self._password = password
         
-    def say_hi_to_user(self, user):
-        # self.username: fait appel à son propre username
-        print(f"Sending message to {user.username}: Hi {user.username}, it's {self.username}") 
+    def get_email(self):
+        return self._email
+    
+    def clean_email(self):
+        return self._email.lower().strip()
+        
+    
         
 user1 = User("dantheman", "dan@gmail.com", "123")
 print(user1.email)
