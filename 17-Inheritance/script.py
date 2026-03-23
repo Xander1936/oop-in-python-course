@@ -19,12 +19,14 @@ class Vehicle:
         
 class Car(Vehicle):
     def __init__(self, brand, model, year, number_of_doors, number_of_wheels):
+        # super() call the attributes of the Vehicle's superclass for the Car subclass
         super().__init__(brand, model, year)
         self.number_of_doors = number_of_doors
         self.number_of_wheels = number_of_wheels
         
 class Bike(Vehicle):
     def __init__(self, brand, model, year, number_of_wheels):
+        # super() call the attributes of the Vehicle's superclass for the Bike subclass
         super().__init__(brand, model, year)
         self.number_of_wheels = number_of_wheels
         
