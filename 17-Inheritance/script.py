@@ -1,6 +1,8 @@
 #  Inheritance
 
-# Inheritance is a fundamental concept in object-oriented programming (OOP) that involves creating new classes (subclasses or derived classes) based on existing classes(superclasses or base classes)
+# Inheritance is a fundamental concept in object-oriented programming (OOP) 
+# that involves creating new classes (subclasses or derived classes) 
+# based on existing classes(superclasses or base classes)
 
 # - A Car is-a Vehicle
 # - A Bike is-a Vehicle

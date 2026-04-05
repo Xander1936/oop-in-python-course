@@ -19,9 +19,7 @@ class User:
 user1 = User("dantheman", "dan@gmail.com", "123")
 print(user1.email)
 
-user2 = User("batman", "bat@outlook.com", "abc")
-
-user1.say_hi_to_user(user2) 
+user2 = User("batman", "bat@outlook.com", "abc") 
 
 user1.email = "danny@gmail.com"
 print(user1.email)

@@ -1,4 +1,5 @@
-# Encapsulation: bundleling the data with the attributes called fields and methods or behaviours that operates the data in a single unit called class.
+# Encapsulation: bundleling the data with the attributes called fields and methods 
+# or behaviours that operates the data in a single unit called class.
 # It helps to only exposing the necessary functionalities to the outside world.
 
 class BadBankAccount:
